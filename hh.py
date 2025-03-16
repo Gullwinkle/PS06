@@ -37,3 +37,5 @@ with open("hh.csv", 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(['Название вакансии', 'Название компании', 'Зарплата', 'Ссылка на вакансию'])
     writer.writerows(parsed_data)
+
+print("Данные успешно сохранены в файл hh.csv")
